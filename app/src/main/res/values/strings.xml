@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MHLanguage</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="passwordapp_name">密码</string>
+    <string name="name1app_name">民</string>
+    <string name="n2app_name">尼玛波</string>
+</resources>
