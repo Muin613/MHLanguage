@@ -41,20 +41,24 @@ public class LanguageExcel2Xml {
             for (int i = 0; i < list.size(); i++) {
                 List one = (List) list.get(i);
                 name.add(one.get(0).toString());
+            }
+
+            for (int i = 0; i < list.size(); i++) {
+                List one = (List) list.get(i);
                 if (i == 0) {
-                    for (int innerI = 1; innerI < list.size(); innerI++) {
+                    for (int innerI = 0; innerI < one.size(); innerI++) {
                         ArrayList<String> value = new ArrayList<>();
                         allValues.add(value);
                     }
                 }
-                for (int innerI = 0; innerI < list.size() - 1; innerI++) {
-                    allValues.get(innerI).add(one.get(innerI + 1).toString());
+                for (int innerI = 0; innerI < allValues.size(); innerI++) {
+                    allValues.get(innerI).add(one.get(innerI).toString());
                 }
+
             }
         } catch (IOException e) {
             e.printStackTrace();
         }
-
 
         for (int i = 0; i < allValues.size(); i++)
             excel2StringXml(name, allValues.get(i));

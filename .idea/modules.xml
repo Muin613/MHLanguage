@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MHLanguage.iml" filepath="$PROJECT_DIR$/MHLanguage.iml" />
+      <module fileurl="file://C:\mhgit\MHLanguage\MHLanguage.iml" filepath="C:\mhgit\MHLanguage\MHLanguage.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\mhgit\MHLanguage\app\app.iml" filepath="C:\mhgit\MHLanguage\app\app.iml" />
     </modules>
   </component>
 </project>
